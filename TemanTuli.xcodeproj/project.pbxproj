@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEB5E39D2A7A022C00E5D133 /* TemanTuliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E39C2A7A022C00E5D133 /* TemanTuliApp.swift */; };
+		EEB5E39F2A7A022C00E5D133 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E39E2A7A022C00E5D133 /* ContentView.swift */; };
+		EEB5E3A12A7A022C00E5D133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB5E3A02A7A022C00E5D133 /* Assets.xcassets */; };
+		EEB5E3A42A7A022C00E5D133 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB5E3A32A7A022C00E5D133 /* Preview Assets.xcassets */; };
+		EEB5E3AE2A7A022D00E5D133 /* TemanTuliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3AD2A7A022D00E5D133 /* TemanTuliTests.swift */; };
+		EEB5E3B82A7A022D00E5D133 /* TemanTuliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3B72A7A022D00E5D133 /* TemanTuliUITests.swift */; };
+		EEB5E3BA2A7A022D00E5D133 /* TemanTuliUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3B92A7A022D00E5D133 /* TemanTuliUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEB5E3AA2A7A022D00E5D133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB5E3912A7A022C00E5D133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB5E3982A7A022C00E5D133;
+			remoteInfo = TemanTuli;
+		};
+		EEB5E3B42A7A022D00E5D133 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB5E3912A7A022C00E5D133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB5E3982A7A022C00E5D133;
+			remoteInfo = TemanTuli;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEB5E3992A7A022C00E5D133 /* TemanTuli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemanTuli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB5E39C2A7A022C00E5D133 /* TemanTuliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemanTuliApp.swift; sourceTree = "<group>"; };
+		EEB5E39E2A7A022C00E5D133 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEB5E3A02A7A022C00E5D133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEB5E3A32A7A022C00E5D133 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEB5E3A92A7A022D00E5D133 /* TemanTuliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemanTuliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB5E3AD2A7A022D00E5D133 /* TemanTuliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemanTuliTests.swift; sourceTree = "<group>"; };
+		EEB5E3B32A7A022D00E5D133 /* TemanTuliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemanTuliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB5E3B72A7A022D00E5D133 /* TemanTuliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemanTuliUITests.swift; sourceTree = "<group>"; };
+		EEB5E3B92A7A022D00E5D133 /* TemanTuliUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemanTuliUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB5E3962A7A022C00E5D133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB5E3A62A7A022D00E5D133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB5E3B02A7A022D00E5D133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEB5E3902A7A022C00E5D133 = {
+			isa = PBXGroup;
+			children = (
+				EEB5E39B2A7A022C00E5D133 /* TemanTuli */,
+				EEB5E3AC2A7A022D00E5D133 /* TemanTuliTests */,
+				EEB5E3B62A7A022D00E5D133 /* TemanTuliUITests */,
+				EEB5E39A2A7A022C00E5D133 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB5E39A2A7A022C00E5D133 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB5E3992A7A022C00E5D133 /* TemanTuli.app */,
+				EEB5E3A92A7A022D00E5D133 /* TemanTuliTests.xctest */,
+				EEB5E3B32A7A022D00E5D133 /* TemanTuliUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB5E39B2A7A022C00E5D133 /* TemanTuli */ = {
+			isa = PBXGroup;
+			children = (
+				EEB5E39C2A7A022C00E5D133 /* TemanTuliApp.swift */,
+				EEB5E39E2A7A022C00E5D133 /* ContentView.swift */,
+				EEB5E3A02A7A022C00E5D133 /* Assets.xcassets */,
+				EEB5E3A22A7A022C00E5D133 /* Preview Content */,
+			);
+			path = TemanTuli;
+			sourceTree = "<group>";
+		};
+		EEB5E3A22A7A022C00E5D133 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEB5E3A32A7A022C00E5D133 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEB5E3AC2A7A022D00E5D133 /* TemanTuliTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB5E3AD2A7A022D00E5D133 /* TemanTuliTests.swift */,
+			);
+			path = TemanTuliTests;
+			sourceTree = "<group>";
+		};
+		EEB5E3B62A7A022D00E5D133 /* TemanTuliUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB5E3B72A7A022D00E5D133 /* TemanTuliUITests.swift */,
+				EEB5E3B92A7A022D00E5D133 /* TemanTuliUITestsLaunchTests.swift */,
+			);
+			path = TemanTuliUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB5E3982A7A022C00E5D133 /* TemanTuli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB5E3BD2A7A022D00E5D133 /* Build configuration list for PBXNativeTarget "TemanTuli" */;
+			buildPhases = (
+				EEB5E3952A7A022C00E5D133 /* Sources */,
+				EEB5E3962A7A022C00E5D133 /* Frameworks */,
+				EEB5E3972A7A022C00E5D133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemanTuli;
+			productName = TemanTuli;
+			productReference = EEB5E3992A7A022C00E5D133 /* TemanTuli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEB5E3A82A7A022D00E5D133 /* TemanTuliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB5E3C02A7A022D00E5D133 /* Build configuration list for PBXNativeTarget "TemanTuliTests" */;
+			buildPhases = (
+				EEB5E3A52A7A022D00E5D133 /* Sources */,
+				EEB5E3A62A7A022D00E5D133 /* Frameworks */,
+				EEB5E3A72A7A022D00E5D133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB5E3AB2A7A022D00E5D133 /* PBXTargetDependency */,
+			);
+			name = TemanTuliTests;
+			productName = TemanTuliTests;
+			productReference = EEB5E3A92A7A022D00E5D133 /* TemanTuliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEB5E3B22A7A022D00E5D133 /* TemanTuliUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB5E3C32A7A022D00E5D133 /* Build configuration list for PBXNativeTarget "TemanTuliUITests" */;
+			buildPhases = (
+				EEB5E3AF2A7A022D00E5D133 /* Sources */,
+				EEB5E3B02A7A022D00E5D133 /* Frameworks */,
+				EEB5E3B12A7A022D00E5D133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB5E3B52A7A022D00E5D133 /* PBXTargetDependency */,
+			);
+			name = TemanTuliUITests;
+			productName = TemanTuliUITests;
+			productReference = EEB5E3B32A7A022D00E5D133 /* TemanTuliUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB5E3912A7A022C00E5D133 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EEB5E3982A7A022C00E5D133 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EEB5E3A82A7A022D00E5D133 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EEB5E3982A7A022C00E5D133;
+					};
+					EEB5E3B22A7A022D00E5D133 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EEB5E3982A7A022C00E5D133;
+					};
+				};
+			};
+			buildConfigurationList = EEB5E3942A7A022C00E5D133 /* Build configuration list for PBXProject "TemanTuli" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB5E3902A7A022C00E5D133;
+			productRefGroup = EEB5E39A2A7A022C00E5D133 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB5E3982A7A022C00E5D133 /* TemanTuli */,
+				EEB5E3A82A7A022D00E5D133 /* TemanTuliTests */,
+				EEB5E3B22A7A022D00E5D133 /* TemanTuliUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB5E3972A7A022C00E5D133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB5E3A42A7A022C00E5D133 /* Preview Assets.xcassets in Resources */,
+				EEB5E3A12A7A022C00E5D133 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB5E3A72A7A022D00E5D133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB5E3B12A7A022D00E5D133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB5E3952A7A022C00E5D133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB5E39F2A7A022C00E5D133 /* ContentView.swift in Sources */,
+				EEB5E39D2A7A022C00E5D133 /* TemanTuliApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB5E3A52A7A022D00E5D133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB5E3AE2A7A022D00E5D133 /* TemanTuliTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB5E3AF2A7A022D00E5D133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB5E3BA2A7A022D00E5D133 /* TemanTuliUITestsLaunchTests.swift in Sources */,
+				EEB5E3B82A7A022D00E5D133 /* TemanTuliUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEB5E3AB2A7A022D00E5D133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB5E3982A7A022C00E5D133 /* TemanTuli */;
+			targetProxy = EEB5E3AA2A7A022D00E5D133 /* PBXContainerItemProxy */;
+		};
+		EEB5E3B52A7A022D00E5D133 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB5E3982A7A022C00E5D133 /* TemanTuli */;
+			targetProxy = EEB5E3B42A7A022D00E5D133 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EEB5E3BB2A7A022D00E5D133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEB5E3BC2A7A022D00E5D133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB5E3BE2A7A022D00E5D133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TemanTuli/Preview Content\"";
+				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.TemanTuli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEB5E3BF2A7A022D00E5D133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TemanTuli/Preview Content\"";
+				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.TemanTuli;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EEB5E3C12A7A022D00E5D133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.TemanTuliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TemanTuli.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TemanTuli";
+			};
+			name = Debug;
+		};
+		EEB5E3C22A7A022D00E5D133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.TemanTuliTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TemanTuli.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TemanTuli";
+			};
+			name = Release;
+		};
+		EEB5E3C42A7A022D00E5D133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.TemanTuliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TemanTuli;
+			};
+			name = Debug;
+		};
+		EEB5E3C52A7A022D00E5D133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.TemanTuliUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TemanTuli;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB5E3942A7A022C00E5D133 /* Build configuration list for PBXProject "TemanTuli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB5E3BB2A7A022D00E5D133 /* Debug */,
+				EEB5E3BC2A7A022D00E5D133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB5E3BD2A7A022D00E5D133 /* Build configuration list for PBXNativeTarget "TemanTuli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB5E3BE2A7A022D00E5D133 /* Debug */,
+				EEB5E3BF2A7A022D00E5D133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB5E3C02A7A022D00E5D133 /* Build configuration list for PBXNativeTarget "TemanTuliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB5E3C12A7A022D00E5D133 /* Debug */,
+				EEB5E3C22A7A022D00E5D133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB5E3C32A7A022D00E5D133 /* Build configuration list for PBXNativeTarget "TemanTuliUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB5E3C42A7A022D00E5D133 /* Debug */,
+				EEB5E3C52A7A022D00E5D133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEB5E3912A7A022C00E5D133 /* Project object */;
+}
