@@ -14,6 +14,20 @@
 		EEB5E3AE2A7A022D00E5D133 /* TemanTuliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3AD2A7A022D00E5D133 /* TemanTuliTests.swift */; };
 		EEB5E3B82A7A022D00E5D133 /* TemanTuliUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3B72A7A022D00E5D133 /* TemanTuliUITests.swift */; };
 		EEB5E3BA2A7A022D00E5D133 /* TemanTuliUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3B92A7A022D00E5D133 /* TemanTuliUITestsLaunchTests.swift */; };
+		EEB5E3CD2A80899E00E5D133 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3CC2A80899E00E5D133 /* CameraViewModel.swift */; };
+		EEB5E3D22A808ADA00E5D133 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3D12A808ADA00E5D133 /* ErrorView.swift */; };
+		EEB5E3D52A808B4A00E5D133 /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3D42A808B4A00E5D133 /* CameraError.swift */; };
+		EEB5E3DB2A808F5C00E5D133 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3DA2A808F5C00E5D133 /* UIImage.swift */; };
+		EEB5E3DD2A808F8A00E5D133 /* Float.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3DC2A808F8A00E5D133 /* Float.swift */; };
+		EEB5E3DF2A808FA100E5D133 /* CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3DE2A808FA100E5D133 /* CGImage.swift */; };
+		EEB5E3E12A808FF200E5D133 /* FrameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3E02A808FF200E5D133 /* FrameViewModel.swift */; };
+		EEB5E3E32A80902900E5D133 /* ClassificationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3E22A80902900E5D133 /* ClassificationViewModel.swift */; };
+		EEB5E3E52A8090A600E5D133 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3E42A8090A600E5D133 /* ContentViewModel.swift */; };
+		EEB5E3E82A80920500E5D133 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3E72A80920500E5D133 /* FrameView.swift */; };
+		EEB5E3EA2A80921400E5D133 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3E92A80921400E5D133 /* CameraView.swift */; };
+		EEB5E3EC2A80957900E5D133 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E3EB2A80957900E5D133 /* HomeView.swift */; };
+		EEB5E42A2A809A8B00E5D133 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E4292A809A8B00E5D133 /* CameraPreview.swift */; };
+		EEB5E42C2A809BF500E5D133 /* TuliHand.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E42B2A809BF500E5D133 /* TuliHand.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +58,20 @@
 		EEB5E3B32A7A022D00E5D133 /* TemanTuliUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemanTuliUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB5E3B72A7A022D00E5D133 /* TemanTuliUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemanTuliUITests.swift; sourceTree = "<group>"; };
 		EEB5E3B92A7A022D00E5D133 /* TemanTuliUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemanTuliUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EEB5E3CC2A80899E00E5D133 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		EEB5E3D12A808ADA00E5D133 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		EEB5E3D42A808B4A00E5D133 /* CameraError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
+		EEB5E3DA2A808F5C00E5D133 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		EEB5E3DC2A808F8A00E5D133 /* Float.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Float.swift; sourceTree = "<group>"; };
+		EEB5E3DE2A808FA100E5D133 /* CGImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImage.swift; sourceTree = "<group>"; };
+		EEB5E3E02A808FF200E5D133 /* FrameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameViewModel.swift; sourceTree = "<group>"; };
+		EEB5E3E22A80902900E5D133 /* ClassificationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassificationViewModel.swift; sourceTree = "<group>"; };
+		EEB5E3E42A8090A600E5D133 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		EEB5E3E72A80920500E5D133 /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		EEB5E3E92A80921400E5D133 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		EEB5E3EB2A80957900E5D133 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EEB5E4292A809A8B00E5D133 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		EEB5E42B2A809BF500E5D133 /* TuliHand.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TuliHand.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +122,10 @@
 		EEB5E39B2A7A022C00E5D133 /* TemanTuli */ = {
 			isa = PBXGroup;
 			children = (
+				EEB5E42B2A809BF500E5D133 /* TuliHand.mlmodel */,
+				EEB5E3D32A808B3B00E5D133 /* Extension */,
+				EEB5E3CB2A80898C00E5D133 /* View */,
+				EEB5E3CA2A80898000E5D133 /* ViewModel */,
 				EEB5E39C2A7A022C00E5D133 /* TemanTuliApp.swift */,
 				EEB5E39E2A7A022C00E5D133 /* ContentView.swift */,
 				EEB5E3A02A7A022C00E5D133 /* Assets.xcassets */,
@@ -125,6 +157,56 @@
 				EEB5E3B92A7A022D00E5D133 /* TemanTuliUITestsLaunchTests.swift */,
 			);
 			path = TemanTuliUITests;
+			sourceTree = "<group>";
+		};
+		EEB5E3CA2A80898000E5D133 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EEB5E3CC2A80899E00E5D133 /* CameraViewModel.swift */,
+				EEB5E3E02A808FF200E5D133 /* FrameViewModel.swift */,
+				EEB5E3E22A80902900E5D133 /* ClassificationViewModel.swift */,
+				EEB5E3E42A8090A600E5D133 /* ContentViewModel.swift */,
+				EEB5E4292A809A8B00E5D133 /* CameraPreview.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EEB5E3CB2A80898C00E5D133 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEB5E3E62A8091AA00E5D133 /* Camera */,
+				EEB5E3D02A808ACC00E5D133 /* ErrorView */,
+				EEB5E3EB2A80957900E5D133 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEB5E3D02A808ACC00E5D133 /* ErrorView */ = {
+			isa = PBXGroup;
+			children = (
+				EEB5E3D12A808ADA00E5D133 /* ErrorView.swift */,
+			);
+			path = ErrorView;
+			sourceTree = "<group>";
+		};
+		EEB5E3D32A808B3B00E5D133 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EEB5E3D42A808B4A00E5D133 /* CameraError.swift */,
+				EEB5E3DA2A808F5C00E5D133 /* UIImage.swift */,
+				EEB5E3DC2A808F8A00E5D133 /* Float.swift */,
+				EEB5E3DE2A808FA100E5D133 /* CGImage.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EEB5E3E62A8091AA00E5D133 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				EEB5E3E72A80920500E5D133 /* FrameView.swift */,
+				EEB5E3E92A80921400E5D133 /* CameraView.swift */,
+			);
+			path = Camera;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +339,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB5E3E32A80902900E5D133 /* ClassificationViewModel.swift in Sources */,
+				EEB5E42C2A809BF500E5D133 /* TuliHand.mlmodel in Sources */,
+				EEB5E3E82A80920500E5D133 /* FrameView.swift in Sources */,
+				EEB5E3DF2A808FA100E5D133 /* CGImage.swift in Sources */,
 				EEB5E39F2A7A022C00E5D133 /* ContentView.swift in Sources */,
+				EEB5E3D22A808ADA00E5D133 /* ErrorView.swift in Sources */,
+				EEB5E3CD2A80899E00E5D133 /* CameraViewModel.swift in Sources */,
+				EEB5E3DD2A808F8A00E5D133 /* Float.swift in Sources */,
+				EEB5E3DB2A808F5C00E5D133 /* UIImage.swift in Sources */,
+				EEB5E3E52A8090A600E5D133 /* ContentViewModel.swift in Sources */,
+				EEB5E42A2A809A8B00E5D133 /* CameraPreview.swift in Sources */,
 				EEB5E39D2A7A022C00E5D133 /* TemanTuliApp.swift in Sources */,
+				EEB5E3E12A808FF200E5D133 /* FrameViewModel.swift in Sources */,
+				EEB5E3EC2A80957900E5D133 /* HomeView.swift in Sources */,
+				EEB5E3D52A808B4A00E5D133 /* CameraError.swift in Sources */,
+				EEB5E3EA2A80921400E5D133 /* CameraView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
