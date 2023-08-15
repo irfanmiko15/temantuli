@@ -8,10 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    var classificationViewModel = ClassificationViewModel()
+    @StateObject var classificationViewModel = ClassificationViewModel()
     var body: some View {
-        HomeView().environmentObject(classificationViewModel)
+        MainView().environmentObject(classificationViewModel)
     }
 }
-
-

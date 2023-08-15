@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFC4648A2A84F50F00665491 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC464892A84F50F00665491 /* MainView.swift */; };
+		CFD54A532A87845200F550E2 /* SpeechController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD54A522A87845200F550E2 /* SpeechController.swift */; };
+		CFD54A5B2A89D81900F550E2 /* TemanTuliAppClipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD54A5A2A89D81900F550E2 /* TemanTuliAppClipsApp.swift */; };
+		CFD54A5D2A89D81900F550E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD54A5C2A89D81900F550E2 /* ContentView.swift */; };
+		CFD54A5F2A89D81A00F550E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD54A5E2A89D81A00F550E2 /* Assets.xcassets */; };
+		CFD54A622A89D81A00F550E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD54A612A89D81A00F550E2 /* Preview Assets.xcassets */; };
+		CFD54A672A89D81A00F550E2 /* TemanTuliAppClips.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = CFD54A582A89D81900F550E2 /* TemanTuliAppClips.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		EEB5E39D2A7A022C00E5D133 /* TemanTuliApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E39C2A7A022C00E5D133 /* TemanTuliApp.swift */; };
 		EEB5E39F2A7A022C00E5D133 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB5E39E2A7A022C00E5D133 /* ContentView.swift */; };
 		EEB5E3A12A7A022C00E5D133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB5E3A02A7A022C00E5D133 /* Assets.xcassets */; };
@@ -31,6 +38,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		CFD54A652A89D81A00F550E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB5E3912A7A022C00E5D133 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFD54A572A89D81900F550E2;
+			remoteInfo = TemanTuliAppClips;
+		};
 		EEB5E3AA2A7A022D00E5D133 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EEB5E3912A7A022C00E5D133 /* Project object */;
@@ -47,7 +61,31 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CFD54A6B2A89D81A00F550E2 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				CFD54A672A89D81A00F550E2 /* TemanTuliAppClips.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		CFC464892A84F50F00665491 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CFD54A522A87845200F550E2 /* SpeechController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechController.swift; sourceTree = "<group>"; };
+		CFD54A582A89D81900F550E2 /* TemanTuliAppClips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemanTuliAppClips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD54A5A2A89D81900F550E2 /* TemanTuliAppClipsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemanTuliAppClipsApp.swift; sourceTree = "<group>"; };
+		CFD54A5C2A89D81900F550E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFD54A5E2A89D81A00F550E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFD54A612A89D81A00F550E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFD54A632A89D81A00F550E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD54A642A89D81A00F550E2 /* TemanTuliAppClips.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TemanTuliAppClips.entitlements; sourceTree = "<group>"; };
+		CFD54A6C2A89D90300F550E2 /* TemanTuli.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TemanTuli.entitlements; sourceTree = "<group>"; };
 		EEB5E3992A7A022C00E5D133 /* TemanTuli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemanTuli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB5E39C2A7A022C00E5D133 /* TemanTuliApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemanTuliApp.swift; sourceTree = "<group>"; };
 		EEB5E39E2A7A022C00E5D133 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +113,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CFD54A552A89D81900F550E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEB5E3962A7A022C00E5D133 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,12 +144,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CFD54A592A89D81900F550E2 /* TemanTuliAppClips */ = {
+			isa = PBXGroup;
+			children = (
+				CFD54A5A2A89D81900F550E2 /* TemanTuliAppClipsApp.swift */,
+				CFD54A5C2A89D81900F550E2 /* ContentView.swift */,
+				CFD54A5E2A89D81A00F550E2 /* Assets.xcassets */,
+				CFD54A632A89D81A00F550E2 /* Info.plist */,
+				CFD54A642A89D81A00F550E2 /* TemanTuliAppClips.entitlements */,
+				CFD54A602A89D81A00F550E2 /* Preview Content */,
+			);
+			path = TemanTuliAppClips;
+			sourceTree = "<group>";
+		};
+		CFD54A602A89D81A00F550E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFD54A612A89D81A00F550E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		EEB5E3902A7A022C00E5D133 = {
 			isa = PBXGroup;
 			children = (
+				CFD54A522A87845200F550E2 /* SpeechController.swift */,
 				EEB5E39B2A7A022C00E5D133 /* TemanTuli */,
 				EEB5E3AC2A7A022D00E5D133 /* TemanTuliTests */,
 				EEB5E3B62A7A022D00E5D133 /* TemanTuliUITests */,
+				CFD54A592A89D81900F550E2 /* TemanTuliAppClips */,
 				EEB5E39A2A7A022C00E5D133 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,6 +183,7 @@
 				EEB5E3992A7A022C00E5D133 /* TemanTuli.app */,
 				EEB5E3A92A7A022D00E5D133 /* TemanTuliTests.xctest */,
 				EEB5E3B32A7A022D00E5D133 /* TemanTuliUITests.xctest */,
+				CFD54A582A89D81900F550E2 /* TemanTuliAppClips.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,6 +191,7 @@
 		EEB5E39B2A7A022C00E5D133 /* TemanTuli */ = {
 			isa = PBXGroup;
 			children = (
+				CFD54A6C2A89D90300F550E2 /* TemanTuli.entitlements */,
 				EEB5E42B2A809BF500E5D133 /* TuliHand.mlmodel */,
 				EEB5E3D32A808B3B00E5D133 /* Extension */,
 				EEB5E3CB2A80898C00E5D133 /* View */,
@@ -174,6 +244,7 @@
 		EEB5E3CB2A80898C00E5D133 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CFC464892A84F50F00665491 /* MainView.swift */,
 				EEB5E3E62A8091AA00E5D133 /* Camera */,
 				EEB5E3D02A808ACC00E5D133 /* ErrorView */,
 				EEB5E3EB2A80957900E5D133 /* HomeView.swift */,
@@ -212,6 +283,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CFD54A572A89D81900F550E2 /* TemanTuliAppClips */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD54A682A89D81A00F550E2 /* Build configuration list for PBXNativeTarget "TemanTuliAppClips" */;
+			buildPhases = (
+				CFD54A542A89D81900F550E2 /* Sources */,
+				CFD54A552A89D81900F550E2 /* Frameworks */,
+				CFD54A562A89D81900F550E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemanTuliAppClips;
+			productName = TemanTuliAppClips;
+			productReference = CFD54A582A89D81900F550E2 /* TemanTuliAppClips.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
 		EEB5E3982A7A022C00E5D133 /* TemanTuli */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EEB5E3BD2A7A022D00E5D133 /* Build configuration list for PBXNativeTarget "TemanTuli" */;
@@ -219,10 +307,12 @@
 				EEB5E3952A7A022C00E5D133 /* Sources */,
 				EEB5E3962A7A022C00E5D133 /* Frameworks */,
 				EEB5E3972A7A022C00E5D133 /* Resources */,
+				CFD54A6B2A89D81A00F550E2 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CFD54A662A89D81A00F550E2 /* PBXTargetDependency */,
 			);
 			name = TemanTuli;
 			productName = TemanTuli;
@@ -275,6 +365,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					CFD54A572A89D81900F550E2 = {
+						CreatedOnToolsVersion = 14.3;
+					};
 					EEB5E3982A7A022C00E5D133 = {
 						CreatedOnToolsVersion = 14.3.1;
 					};
@@ -304,11 +397,21 @@
 				EEB5E3982A7A022C00E5D133 /* TemanTuli */,
 				EEB5E3A82A7A022D00E5D133 /* TemanTuliTests */,
 				EEB5E3B22A7A022D00E5D133 /* TemanTuliUITests */,
+				CFD54A572A89D81900F550E2 /* TemanTuliAppClips */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CFD54A562A89D81900F550E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD54A622A89D81A00F550E2 /* Preview Assets.xcassets in Resources */,
+				CFD54A5F2A89D81A00F550E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEB5E3972A7A022C00E5D133 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -335,11 +438,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CFD54A542A89D81900F550E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD54A5D2A89D81900F550E2 /* ContentView.swift in Sources */,
+				CFD54A5B2A89D81900F550E2 /* TemanTuliAppClipsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EEB5E3952A7A022C00E5D133 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EEB5E3E32A80902900E5D133 /* ClassificationViewModel.swift in Sources */,
+				CFD54A532A87845200F550E2 /* SpeechController.swift in Sources */,
 				EEB5E42C2A809BF500E5D133 /* TuliHand.mlmodel in Sources */,
 				EEB5E3E82A80920500E5D133 /* FrameView.swift in Sources */,
 				EEB5E3DF2A808FA100E5D133 /* CGImage.swift in Sources */,
@@ -350,6 +463,7 @@
 				EEB5E3DB2A808F5C00E5D133 /* UIImage.swift in Sources */,
 				EEB5E3E52A8090A600E5D133 /* ContentViewModel.swift in Sources */,
 				EEB5E42A2A809A8B00E5D133 /* CameraPreview.swift in Sources */,
+				CFC4648A2A84F50F00665491 /* MainView.swift in Sources */,
 				EEB5E39D2A7A022C00E5D133 /* TemanTuliApp.swift in Sources */,
 				EEB5E3E12A808FF200E5D133 /* FrameViewModel.swift in Sources */,
 				EEB5E3EC2A80957900E5D133 /* HomeView.swift in Sources */,
@@ -378,6 +492,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		CFD54A662A89D81A00F550E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFD54A572A89D81900F550E2 /* TemanTuliAppClips */;
+			targetProxy = CFD54A652A89D81A00F550E2 /* PBXContainerItemProxy */;
+		};
 		EEB5E3AB2A7A022D00E5D133 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EEB5E3982A7A022C00E5D133 /* TemanTuli */;
@@ -391,6 +510,70 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		CFD54A692A89D81A00F550E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TemanTuliAppClips/TemanTuliAppClips.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TemanTuliAppClips/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Y46Y6N99L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TemanTuliAppClips/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TemanTuli;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.TemanTuli.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFD54A6A2A89D81A00F550E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TemanTuliAppClips/TemanTuliAppClips.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TemanTuliAppClips/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Y46Y6N99L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TemanTuliAppClips/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TemanTuli;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ada.TemanTuli.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		EEB5E3BB2A7A022D00E5D133 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -441,6 +624,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"You can get text from your speech through turn on your microphone\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -495,6 +679,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"You can get text from your speech through turn on your microphone\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -508,15 +693,18 @@
 		EEB5E3BE2A7A022D00E5D133 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TemanTuli/TemanTuli.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TemanTuli/Preview Content\"";
-				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
+				DEVELOPMENT_TEAM = 3Y46Y6N99L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app required access to your camera to scan your hand motion";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "“You can view a text transcription of your speech in the app.”";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -538,15 +726,18 @@
 		EEB5E3BF2A7A022D00E5D133 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TemanTuli/TemanTuli.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TemanTuli/Preview Content\"";
-				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
+				DEVELOPMENT_TEAM = 3Y46Y6N99L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app required access to your camera to scan your hand motion";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "“You can view a text transcription of your speech in the app.”";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -572,7 +763,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
+				DEVELOPMENT_TEAM = 3Y46Y6N99L;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
@@ -592,7 +783,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3P8PQZ7GZK;
+				DEVELOPMENT_TEAM = 3Y46Y6N99L;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
@@ -644,6 +835,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CFD54A682A89D81A00F550E2 /* Build configuration list for PBXNativeTarget "TemanTuliAppClips" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD54A692A89D81A00F550E2 /* Debug */,
+				CFD54A6A2A89D81A00F550E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EEB5E3942A7A022C00E5D133 /* Build configuration list for PBXProject "TemanTuli" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
