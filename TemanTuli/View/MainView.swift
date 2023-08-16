@@ -10,30 +10,75 @@ import SwiftUI
 struct MainView: View {
     @StateObject var speechRecognizer = SpeechRecognizer()
     @State private var isRecording = false
-
+    
     var body: some View {
-        VStack{
-            Text(speechRecognizer.transcript)
-            .padding()
-            Button {
-                if !isRecording {
-                    speechRecognizer.transcribe()
-                } else {
-                    speechRecognizer.stopTranscribing()
+        ZStack{
+            Image("bg-camera")
+//                .zIndex(0)
+            HStack{
+                Spacer()
+                VStack{
+                    HStack{
+                        VStack(alignment: .leading){
+                            Text("Hello, i Adi")
+//                                .padding(.bottom, 1)
+//                                .zIndex(1)
+                            Text("Did you mean: Hello, i am Adi")
+                                .font(.caption2)
+                                .foregroundColor(.gray)
+                        }
+                        .padding()
+                        .background(Color("bg-primary"))
+                        .cornerRadius(8)
+                       Spacer()
+                    }
+                    .padding(.vertical, 4)
+                    .padding(.trailing, 36)
+                    HStack{
+                        Spacer()
+                        VStack(alignment: .leading){
+                                        Text(speechRecognizer.transcript)
+                                .foregroundColor(.black)
+                            //            .padding()
+//                            Text("Hello Adi, nice to meet you")
+//                                .padding(.bottom, 1)
+//                            Text("Did you mean: Hello, i am Adi")
+//                                .font(.caption2)
+//                                .foregroundColor(.gray)
+                        }
+                        .padding()
+                        .background(Color("bg-primary"))
+                        .cornerRadius(8)
+                    }
+                    .padding(.vertical, 4)
+                    .padding(.leading, 36)
+                    
+                    Spacer()
+                    
+                    Button {
+                        if !isRecording {
+                            speechRecognizer.transcribe()
+                        } else {
+                            speechRecognizer.stopTranscribing()
+                        }
+                        isRecording.toggle()
+                    } label: {
+                        Image(systemName: "mic")
+                            .bold()
+                    }
+                    .padding(24)
+                    .foregroundColor(.white)
+                    .background(.blue)
+                    .clipShape(Circle())
                 }
-                
-                isRecording.toggle()
-            } label: {
-                Image(systemName: "mic")
-                    .bold()
+                .frame(maxWidth: 240, maxHeight:320)
+                .padding(16)
+                .background(Color("bg-secondary"))
+                .cornerRadius(20)
             }
-            .padding(20)
-            .foregroundColor(.white)
-            .background(.blue)
-            .cornerRadius(36)
-        }.onAppear{
-//            speechController.requestSpeechRecognitionAuthorization()
+//            .zIndex(1)
         }
+        .ignoresSafeArea()
     }
 }
 

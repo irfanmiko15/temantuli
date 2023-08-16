@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>tunarungu.kristantosean.com</string>
+		<string>applinks:tunarungu.kristantosean.com</string>
 	</array>
 </dict>
 </plist>

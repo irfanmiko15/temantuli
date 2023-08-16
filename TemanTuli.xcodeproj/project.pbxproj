@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CFBB02482A8BE04800ABB5BC /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB02472A8BE04800ABB5BC /* CodeView.swift */; };
+		CFBB024A2A8BEDDE00ABB5BC /* AppClipOnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB02492A8BEDDE00ABB5BC /* AppClipOnBoarding.swift */; };
 		CFC4648A2A84F50F00665491 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC464892A84F50F00665491 /* MainView.swift */; };
 		CFD54A532A87845200F550E2 /* SpeechController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD54A522A87845200F550E2 /* SpeechController.swift */; };
 		CFD54A5B2A89D81900F550E2 /* TemanTuliAppClipsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD54A5A2A89D81900F550E2 /* TemanTuliAppClipsApp.swift */; };
@@ -76,6 +78,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CFBB02472A8BE04800ABB5BC /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		CFBB02492A8BEDDE00ABB5BC /* AppClipOnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppClipOnBoarding.swift; sourceTree = "<group>"; };
 		CFC464892A84F50F00665491 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CFD54A522A87845200F550E2 /* SpeechController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechController.swift; sourceTree = "<group>"; };
 		CFD54A582A89D81900F550E2 /* TemanTuliAppClips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemanTuliAppClips.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				CFD54A5A2A89D81900F550E2 /* TemanTuliAppClipsApp.swift */,
+				CFBB02492A8BEDDE00ABB5BC /* AppClipOnBoarding.swift */,
 				CFD54A5C2A89D81900F550E2 /* ContentView.swift */,
 				CFD54A5E2A89D81A00F550E2 /* Assets.xcassets */,
 				CFD54A632A89D81A00F550E2 /* Info.plist */,
@@ -245,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				CFC464892A84F50F00665491 /* MainView.swift */,
+				CFBB02472A8BE04800ABB5BC /* CodeView.swift */,
 				EEB5E3E62A8091AA00E5D133 /* Camera */,
 				EEB5E3D02A808ACC00E5D133 /* ErrorView */,
 				EEB5E3EB2A80957900E5D133 /* HomeView.swift */,
@@ -442,6 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFBB024A2A8BEDDE00ABB5BC /* AppClipOnBoarding.swift in Sources */,
 				CFD54A5D2A89D81900F550E2 /* ContentView.swift in Sources */,
 				CFD54A5B2A89D81900F550E2 /* TemanTuliAppClipsApp.swift in Sources */,
 			);
@@ -464,6 +471,7 @@
 				EEB5E3E52A8090A600E5D133 /* ContentViewModel.swift in Sources */,
 				EEB5E42A2A809A8B00E5D133 /* CameraPreview.swift in Sources */,
 				CFC4648A2A84F50F00665491 /* MainView.swift in Sources */,
+				CFBB02482A8BE04800ABB5BC /* CodeView.swift in Sources */,
 				EEB5E39D2A7A022C00E5D133 /* TemanTuliApp.swift in Sources */,
 				EEB5E3E12A808FF200E5D133 /* FrameViewModel.swift in Sources */,
 				EEB5E3EC2A80957900E5D133 /* HomeView.swift in Sources */,
@@ -524,11 +532,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TemanTuliAppClips/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TemanTuli;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"You can get text from your speech through turn on your microphone\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -556,11 +565,12 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TemanTuliAppClips/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = TemanTuli;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"You can get text from your speech through turn on your microphone\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -704,12 +714,13 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app required access to your camera to scan your hand motion";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"You can get text from your speech through turn on your microphone\"";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "“You can view a text transcription of your speech in the app.”";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -737,12 +748,13 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "This app required access to your camera to scan your hand motion";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "\"You can get text from your speech through turn on your microphone\"";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "“You can view a text transcription of your speech in the app.”";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
